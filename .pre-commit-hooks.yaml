@@ -6,5 +6,5 @@
 -   id: gflows
     name: Gflows
     description: This hook runs gflows check to ensure updates to ytt templates are reflected in github workflows.
-    entry: gflows check
+    entry: gflows check --show-diffs
     language: system
